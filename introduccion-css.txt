@@ -1,0 +1,46 @@
+Introduccion a CSS
+
+CSS en línea:
+
+<body>
+
+    <h1 style="color: blue; font-size: 24px;">Título con CSS en línea</h1>
+    <p style="background-color: yellow; padding: 10px;">Este es un párrafo con estilos en línea.</p>
+
+</body>
+
+CSS en bloque:
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de CSS en bloque</title>
+    <style>
+        h1 {
+            color: blue;
+            font-size: 24px;
+        }
+        p {
+            background-color: yellow;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    CSS en archivo externo:
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejemplo de CSS en archivo externo</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+    
+        <h1>Título con CSS en archivo externo</h1>
+        <p>Este es un párrafo con estilos en archivo externo.</p>
+    
+    </body>
+
+    Estos ejemplos muestran cómo aplicar CSS en línea, en bloque y desde un archivo externo en un documento HTML.
