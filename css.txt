@@ -1,0 +1,28 @@
+Aquí tienes algunos ejemplos básicos de cómo aplicar CSS a elementos, clases e IDs:
+
+Elemento:
+
+ p {
+            color: blue;
+            font-size: 16px;
+        }
+
+        
+        
+Clase:
+
+  .destacado {
+            color: red;
+            font-weight: bold;
+        }
+
+
+ID:
+
+  #parrafo-unico {
+            background-color: yellow;
+            padding: 10px;
+        }
+
+        
+
